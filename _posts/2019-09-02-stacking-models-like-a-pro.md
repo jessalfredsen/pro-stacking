@@ -1,16 +1,21 @@
-# Stacking Models Like a Pro
+---
+layout: post
+title:  "Stacking Models Like a Pro"
+author: 
+    - "Jess Alfredsen\n"
+    - "Jess Alfredsen2"
+---
 
-- [Stacking Models Like a Pro](#stacking-models-like-a-pro)
-- [The problem](#the-problem)
-- [Anonymizing the data](#anonymizing-the-data)
-- [The ToolBox](#the-toolbox)
-- [The architecture](#the-architecture)
-- [How it was trained](#how-it-was-trained)
-- [Using BERT for text classification.](#using-bert-for-text-classification)
+* [The problem](#the-problem)
+* [Anonymizing the data](#anonymizing-the-data)
+* [The ToolBox](#the-toolbox)
+* [The architecture](#the-architecture)
+* [How it was trained](#how-it-was-trained)
+* [Using BERT for text classification.](#using-bert-for-text-classification)
 
 # The problem
 
-Mail routing for a medium sized? Danish Pension Fund. A pension fund recieves a large amount of customer emails or messages through
+Mail routing for a large Danish Pension Fund. A pension fund recieves a large amount of customer emails or messages through
 custom apps and homepage forms, which need to be rerouted to the relevant departments.
 At the time of writing, this process is manual and handled by the entry point for mails, i.e. the customer service department.
 

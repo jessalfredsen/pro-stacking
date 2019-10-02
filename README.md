@@ -1,10 +1,4 @@
----
-layout: post
-title:  "Stacking Models Like a Pro"
-author: 
-    - "Jess Alfredsen\n"
-    - "Jess Alfredsen2"
----
+# Stacking Models Like a Pro
 
 * [The problem](#the-problem)
 * [Anonymizing the data](#anonymizing-the-data)

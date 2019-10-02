@@ -1,5 +1,6 @@
 # Stacking Models Like a Pro
 
+* [Stacking Models Like a Pro](#stacking-models-like-a-pro)
 * [The problem](#the-problem)
 * [Anonymizing the data](#anonymizing-the-data)
 * [The ToolBox](#the-toolbox)
@@ -16,7 +17,6 @@ At the time of writing, this process is manual and handled by the entry point fo
 This is a labour intensive and error prone process. The task at hand was to build a model to automate this rerouting process.
 The model would recieve an email or customer enquiry, then classify it according to a set of **14** categories representing distinct
 workflows within the company, and then forward the enquiry accordingly.
-
 
 # Anonymizing the data
 

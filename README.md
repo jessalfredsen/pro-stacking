@@ -2,8 +2,7 @@
 layout: post
 title:  "Stacking Models Like a Pro"
 author: 
-    - "Jess Alfredsen\n"
-    - "Jess Alfredsen2"
+    - "Jess Alfredsen"
 ---
 
 * [The problem](#the-problem)

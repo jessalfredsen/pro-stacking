@@ -1,6 +1,12 @@
 # Stacking Models Like a Pro
 
-
+- [Stacking Models Like a Pro](#stacking-models-like-a-pro)
+- [The problem](#the-problem)
+- [Anonymizing the data](#anonymizing-the-data)
+- [The ToolBox](#the-toolbox)
+- [The architecture](#the-architecture)
+- [How it was trained](#how-it-was-trained)
+- [Using BERT for text classification.](#using-bert-for-text-classification)
 
 # The problem
 
@@ -23,7 +29,10 @@ with our custom Named Entity Recognition [BERT](https://github.com/google-resear
 
 For this we use the wonderful PyTorch implentation by [Huggingface](https://github.com/huggingface/transformers).
 
+# The ToolBox
 
+1) A danish spaCy model we trained ourselves using the **INSERT DATASET**, used for tokenization and PosTagging. We have attached the Danish lemmatizer [lemmy](https://github.com/sorenlind/lemmy) to the spaCy pipeline.
+2) Sklearn. Several models from Sklearn, and most importantly pipelines from Sklearn. Sklearn has developed a very neat API for estimators and transformers, which we make sure to conform to whenever we write our own transformers and estimators.
 
 # The architecture
 
